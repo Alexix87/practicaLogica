@@ -1,0 +1,1 @@
+![](https://github.com/Alexix87/practicaLogica/blob/master/ejerciciosIniciales/ejercicio_05/ejercicio_05.png)
