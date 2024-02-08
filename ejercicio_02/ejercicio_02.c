@@ -1,13 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// - No hace falta la funcion esValido, se puede poner en el while !b, pero asi lo hace mas legible
 int esValido(int unValor){
-    return unValor==0 ?0:1;
+    int rst;
+    if (unValor == 0){
+        printf("ERROR! El segundo numero es cero.\n");
+        rst = 0;
+    }else{
+        rst = 1;
+    }
+    return rst;
 }
-
-// todo:
-// - Dar formato al resultado decimal
-// - Mensaje cuando se ingresa 0 en b
 
 int main(){
     int a,b;
@@ -17,7 +21,8 @@ int main(){
         scanf("%d %d",&a,&b);
     }while(!esValido(b));    
 
-    printf("El cociente a/b es: %f\n",(float)a/b);
+    // .2 en %f define en dos la cantidad de decimales a mostrar 
+    printf("El cociente a/b es: %.2f\n",(float)a/b);
 
     system("pause");
     return 0;    
