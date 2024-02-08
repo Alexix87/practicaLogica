@@ -4,7 +4,7 @@
 int main(){
     int a,b;
 
-    printf("ingrese dos numeros: ");
+    printf("ingrese dos numeros : ");
     scanf("%d %d",&a,&b);
 
     printf("%d mas %d = %d\n",a,b,a+b);

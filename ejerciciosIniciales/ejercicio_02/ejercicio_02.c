@@ -15,7 +15,6 @@ int esValido(int unValor){
 
 int main(){
     int a,b;
-
     do{
         printf("Ingrese dos valores enteros: ");
         scanf("%d %d",&a,&b);
