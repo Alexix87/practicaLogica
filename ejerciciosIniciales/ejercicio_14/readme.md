@@ -1,1 +1,1 @@
-![](https://github.com/Alexix87/practicaLogica/blob/master/ejercicio_14/ejercicio_14.png)
+![](https://github.com/Alexix87/practicaLogica/blob/master/ejerciciosIniciales/ejercicio_14/ejercicio_14.png)
